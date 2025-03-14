@@ -15,7 +15,7 @@ from datetime import datetime
 from data_preprocessing import prepare_datasets
 from constants import LAND_COVER_CLASSES
 from utils import get_file_paths_for_images_and_labels, get_number_of_images_and_labels
-matplotlib.use('Qt5Agg')
+matplotlib.use('Agg')
 
 
 def plot_images_and_labels(number_images_to_plot, save, images_dir, labels_dir):
